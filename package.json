@@ -1,0 +1,31 @@
+{
+  "name": "loblawsdigitalflyer",
+  "version": "1.0.0",
+  "description": "Loblaws Digital Flyer",
+  "author": "TC Media",
+  "private": true,
+  "scripts": {
+    "precommit": "npm run lint",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "supergenerate": "nuxt generate && http-server dist -o",
+    "build": "nuxt build",
+    "superbuild": "nuxt build && nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/google-tag-manager": "^2.2.1",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "@nuxtjs/eslint-module": "^0.0.1",
+    "babel-eslint": "^10.0.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "http-server": "^0.11.1"
+  }
+}

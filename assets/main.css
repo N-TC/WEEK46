@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Univers LT Std';
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: condensed;
+  src: url('/fonts/2B816F_4_0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Univers LT Std';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: ultra-condensed;
+  src: url('/fonts/2B816F_1_0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/SharpGroteskBold25.otf');
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/SharpGroteskSmBold20.otf');
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk 15';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/SharpGroteskSmBold15.otf');
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/SharpGroteskMedium25.otf');
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/SharpGroteskBook20.otf');
+}
+
+@font-face {
+  font-family: 'Noir Std';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/NoirStd-SemiBold.otf');
+}
+
+
+
+
+body {
+  font-family: 'Univers LT Std';
+  font-weight: bold;
+  font-stretch: condensed;
+  text-rendering: optimizeLegibility;
+}
